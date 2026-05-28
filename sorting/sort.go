@@ -33,23 +33,11 @@ type Person struct {
 // SortByAgeDescending sortiert die Liste nach dem Alter der Personen absteigend.
 // Die Funktion verwendet dafür die Funktion slices.Sort aus dem Paket slices.
 func SortByAgeDescending(list []Person) {
-	// Hinweis:
-	// Verwenden Sie die Funktion slices.SortFunc.
-	// Übergeben Sie ihr eine Funktion, die zwei Personen a und b vergleicht,
-	// indem sie das Alter der beiden Personen vergleicht.
-	// (vgl. SortAscending und SortStringsByLengthAscending)
-
 	// TODO
 }
 
 // SortByNameAscending sortiert die Liste nach dem Namen der Personen aufsteigend.
 // Die Funktion verwendet dafür die Funktion slices.SortFunc aus dem Paket slices.
 func SortByNameAscending(list []Person) {
-	// Hinweis:
-	// Verwenden Sie die Funktion slices.SortFunc.
-	// Übergeben Sie ihr eine Funktion, die zwei Personen a und b vergleicht,
-	// indem sie die Namen der beiden Personen vergleicht (z.B. mit strings.Compare).
-	// (vgl. SortAscending und SortStringsByLengthAscending)
-
 	// TODO
 }

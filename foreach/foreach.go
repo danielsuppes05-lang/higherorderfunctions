@@ -12,10 +12,6 @@ func ForEach[T any](list []T, f func(T)) {
 // CountEven zählt, wie viele Elemente der Liste gerade sind.
 func CountEven(list []int) int {
 	count := 0
-	// HINWEIS:
-	// Rufen Sie die Funktion ForEach auf und übergeben Sie ihr eine Funktion,
-	// die ein Element vom Typ int erwartet und prüft, ob dieses Element gerade ist.
-
 	// TODO
 
 	return count
@@ -25,10 +21,6 @@ func CountEven(list []int) int {
 // CountGreater zählt, wie viele Elemente der Liste größer als x sind.
 func CountGreater(list []int, x int) int {
 	count := 0
-	// HINWEIS:
-	// Rufen Sie die Funktion ForEach auf und übergeben Sie ihr eine Funktion,
-	// die ein Element vom Typ int erwartet und prüft, ob dieses Element größer als x ist.
-
 	// TODO
 
 	return count
