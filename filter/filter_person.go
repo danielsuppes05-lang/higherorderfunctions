@@ -1,7 +1,5 @@
 package filter
 
-import "strings"
-
 type Person struct {
 	Name string
 	Age  int
@@ -15,9 +13,8 @@ func FilterMinAge(list []Person, minAge int) []Person {
 	// Übergeben Sie ihr eine Funktion, die für eine Person p
 	// überprüft, ob sie mindestens das Alter minAge hat.
 
-	return FilterList(list, func(p Person) bool {
-		return p.Age >= minAge
-	})
+	// TODO
+	return []Person{}
 }
 
 // FilterLongNames erwartet eine Liste von Personen und eine Mindestlänge.
@@ -28,9 +25,8 @@ func FilterLongNames(list []Person, minLength int) []Person {
 	// Übergeben Sie ihr eine Funktion, die für eine Person p
 	// überprüft, ob ihr Name wenigstens minLength Zeichen hat.
 
-	return FilterList(list, func(p Person) bool {
-		return len(p.Name) >= minLength
-	})
+	// TODO
+	return []Person{}
 }
 
 // FilterNamePrefix erwartet eine Liste von Personen und einen Namenspräfix.
@@ -41,9 +37,8 @@ func FilterNamePrefix(list []Person, prefix string) []Person {
 	// Übergeben Sie ihr eine Funktion, die für eine Person p
 	// überprüft, ob ihr Name mit prefix beginnt.
 
-	return FilterList(list, func(p Person) bool {
-		return strings.HasPrefix(p.Name, prefix)
-	})
+	// TODO
+	return []Person{}
 }
 
 // FilterChildren erwartet eine Liste von Personen.
@@ -54,9 +49,8 @@ func FilterChildren(list []Person) []Person {
 	// Übergeben Sie ihr eine Funktion, die für eine Person p
 	// überprüft, ob ihr Alter höchstens 13 ist.
 
-	return FilterList(list, func(p Person) bool {
-		return p.Age <= 13
-	})
+	// TODO
+	return []Person{}
 }
 
 // FilterChildrenWithLongNames erwartet eine Liste von Personen und eine Mindestlänge.
@@ -65,5 +59,6 @@ func FilterChildren(list []Person) []Person {
 func FilterChildrenWithLongNames(list []Person, minLength int) []Person {
 	// HINWEIS: Kombinieren Sie geeignete Funktionen, die Sie bereits geschrieben haben.
 
-	return FilterChildren(FilterLongNames(list, minLength))
+	// TODO
+	return []Person{}
 }

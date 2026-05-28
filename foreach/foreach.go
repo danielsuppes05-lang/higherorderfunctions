@@ -16,11 +16,8 @@ func CountEven(list []int) int {
 	// Rufen Sie die Funktion ForEach auf und übergeben Sie ihr eine Funktion,
 	// die ein Element vom Typ int erwartet und prüft, ob dieses Element gerade ist.
 
-	ForEach(list, func(v int) {
-		if v%2 == 0 {
-			count++
-		}
-	})
+	// TODO
+
 	return count
 }
 
@@ -32,10 +29,7 @@ func CountGreater(list []int, x int) int {
 	// Rufen Sie die Funktion ForEach auf und übergeben Sie ihr eine Funktion,
 	// die ein Element vom Typ int erwartet und prüft, ob dieses Element größer als x ist.
 
-	ForEach(list, func(v int) {
-		if v > x {
-			count++
-		}
-	})
+	// TODO
+
 	return count
 }
