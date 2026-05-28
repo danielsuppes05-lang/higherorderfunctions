@@ -28,11 +28,10 @@ func DoubleEach(list []int) []int {
 	// HINWEIS:
 	// Rufen Sie die Funktion MapFunction auf und übergeben Sie ihr eine Funktion,
 	// die ein Element vom Typ int erwartet und dieses Element verdoppelt.
-	// solution:begin
+
 	return MapFunction(list, func(v int) int {
 		return v * 2
 	})
-	// solution:end
 }
 
 // AppendToEach erwartet eine Liste von Strings und einen String s.
@@ -41,9 +40,8 @@ func AppendToEach(list []string, s string) []string {
 	// HINWEIS:
 	// Rufen Sie die Funktion MapFunction auf und übergeben Sie ihr eine Funktion,
 	// die ein Element vom Typ string erwartet und an dieses Element den String s anhängt.
-	// solution:begin
+
 	return MapFunction(list, func(v string) string {
 		return v + s
 	})
-	// solution:end
 }

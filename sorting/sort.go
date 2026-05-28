@@ -39,11 +39,10 @@ func SortByAgeDescending(list []Person) {
 	// Übergeben Sie ihr eine Funktion, die zwei Personen a und b vergleicht,
 	// indem sie das Alter der beiden Personen vergleicht.
 	// (vgl. SortAscending und SortStringsByLengthAscending)
-	// solution:begin
+
 	slices.SortFunc(list, func(a, b Person) int {
 		return b.Age - a.Age
 	})
-	// solution:end
 }
 
 // SortByNameAscending sortiert die Liste nach dem Namen der Personen aufsteigend.
@@ -54,9 +53,8 @@ func SortByNameAscending(list []Person) {
 	// Übergeben Sie ihr eine Funktion, die zwei Personen a und b vergleicht,
 	// indem sie die Namen der beiden Personen vergleicht (z.B. mit strings.Compare).
 	// (vgl. SortAscending und SortStringsByLengthAscending)
-	// solution:begin
+
 	slices.SortFunc(list, func(a, b Person) int {
 		return strings.Compare(a.Name, b.Name)
 	})
-	// solution:end
 }
